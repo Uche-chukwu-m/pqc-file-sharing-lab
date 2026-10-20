@@ -1,0 +1,43 @@
+group,setup,file_size,operation,runs,median_us,iqr_us,file_bytes,package_bytes,overhead_bytes
+end-to-end,A,1 KB,encrypt,200,4.6,0.7,1024,1040,16
+end-to-end,A,1 KB,decrypt,200,4.2,0.9,1024,1040,16
+end-to-end,B v1 (pq),1 KB,encrypt,200,20.7,2.0,1024,2144,1120
+end-to-end,B v1 (pq),1 KB,decrypt,200,22.1,2.0,1024,2144,1120
+end-to-end,v2 classical,1 KB,encrypt,200,108.5,8.4,1024,1347,323
+end-to-end,v2 classical,1 KB,decrypt,200,115.9,9.8,1024,1347,323
+end-to-end,v2 pq,1 KB,encrypt,200,175.0,51.0,1024,5641,4617
+end-to-end,v2 pq,1 KB,decrypt,200,138.7,11.8,1024,5641,4617
+building block,AES-256-GCM,1 KB,encrypt,200,1.4,0.2,,,
+building block,AES-256-GCM,1 KB,decrypt,200,1.5,0.2,,,
+end-to-end,A,100 KB,encrypt,200,54.5,5.1,102400,102416,16
+end-to-end,A,100 KB,decrypt,200,20.5,2.6,102400,102416,16
+end-to-end,B v1 (pq),100 KB,encrypt,200,32.9,2.9,102400,103520,1120
+end-to-end,B v1 (pq),100 KB,decrypt,200,33.7,3.1,102400,103520,1120
+end-to-end,v2 classical,100 KB,encrypt,200,237.6,16.8,102400,102723,323
+end-to-end,v2 classical,100 KB,decrypt,200,185.8,12.4,102400,102723,323
+end-to-end,v2 pq,100 KB,encrypt,200,354.3,56.4,102400,107017,4617
+end-to-end,v2 pq,100 KB,decrypt,200,304.5,20.4,102400,107017,4617
+building block,AES-256-GCM,100 KB,encrypt,200,11.9,1.2,,,
+building block,AES-256-GCM,100 KB,decrypt,200,11.7,1.1,,,
+end-to-end,A,1 MB,encrypt,200,504.7,15.9,1048576,1048592,16
+end-to-end,A,1 MB,decrypt,200,143.6,13.0,1048576,1048592,16
+end-to-end,B v1 (pq),1 MB,encrypt,200,139.0,9.1,1048576,1049696,1120
+end-to-end,B v1 (pq),1 MB,decrypt,200,139.0,11.7,1048576,1049696,1120
+end-to-end,v2 classical,1 MB,encrypt,200,1407.9,24.6,1048576,1048899,323
+end-to-end,v2 classical,1 MB,decrypt,200,824.5,22.5,1048576,1048899,323
+end-to-end,v2 pq,1 MB,encrypt,200,1945.5,76.1,1048576,1053193,4617
+end-to-end,v2 pq,1 MB,decrypt,200,1872.2,55.4,1048576,1053193,4617
+building block,AES-256-GCM,1 MB,encrypt,200,107.5,10.2,,,
+building block,AES-256-GCM,1 MB,decrypt,200,105.3,10.0,,,
+building block,X25519 / Ed25519,—,KEM keygen,200,15.7,1.5,,,
+building block,X25519 / Ed25519,—,encapsulate,200,30.8,2.6,,,
+building block,X25519 / Ed25519,—,decapsulate,200,29.2,3.0,,,
+building block,X25519 / Ed25519,—,signature keygen,200,15.9,1.4,,,
+building block,X25519 / Ed25519,—,sign,200,27.0,2.9,,,
+building block,X25519 / Ed25519,—,verify,200,35.1,3.4,,,
+building block,ML-KEM-768 / ML-DSA-65,—,KEM keygen,200,15.1,1.3,,,
+building block,ML-KEM-768 / ML-DSA-65,—,encapsulate,200,15.7,1.3,,,
+building block,ML-KEM-768 / ML-DSA-65,—,decapsulate,200,17.7,1.7,,,
+building block,ML-KEM-768 / ML-DSA-65,—,signature keygen,200,43.9,3.8,,,
+building block,ML-KEM-768 / ML-DSA-65,—,sign,200,71.4,45.3,,,
+building block,ML-KEM-768 / ML-DSA-65,—,verify,200,40.6,3.7,,,

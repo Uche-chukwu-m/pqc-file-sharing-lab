@@ -1,0 +1,6 @@
+FAKE INVOICE 01
+Amount: $100.00
+Payee: Harbor Point Services (fictional)
+Client: Jordan Example (fictional)
+Due: 2026-12-01
+FICTIONAL DATA - CLASSROOM DEMO ONLY

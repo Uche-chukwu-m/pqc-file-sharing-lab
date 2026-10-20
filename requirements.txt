@@ -1,0 +1,6 @@
+cryptography==50.0.2
+liboqs-python==0.16.0.1
+pytest==9.1.1
+scikit-learn==1.9.1
+skops==0.16.0
+streamlit==1.66.0

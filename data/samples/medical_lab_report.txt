@@ -1,0 +1,6 @@
+FICTIONAL LAB REPORT - CLASSROOM DEMO ONLY
+Patient: Sam Placeholder (fictional)
+Test: Complete blood count
+Hemoglobin: 13.9 g/dL (reference 12.0-17.5)
+White cells: 6.1 x10^9/L (reference 4.0-11.0)
+Comment: All values within reference range.

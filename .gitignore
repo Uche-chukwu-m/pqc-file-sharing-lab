@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Holds private keys and decrypted files from the CLI demo.
+lab/
+# Signed with each person's own lab keys; regenerate locally.
+models/
+results/results.sig.json
